@@ -7,6 +7,6 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 If /usr/sbin/exim-4.84-3 appears in the results, use cve-2016-1531.sh to gain a root shell.
 
-link suid
+[![Image of suid](https://github.com/kam1n0/exim4-privesc/blob/master/tmp_upload/suid.png)(#)]
 
 link root
